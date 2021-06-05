@@ -1,0 +1,53 @@
+.header1{
+    background-color: blue;
+    padding: 13px 100px;
+    
+}
+.header1 p{
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0;
+}
+.btn{
+    float: right;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+}
+.header2{
+    background-color: black;
+    padding: 10px 100px;
+    color: white;
+}
+.header2 p{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+}
+
+@media (max-width:691px){
+    .header1, .header2{
+        padding: 13px 10px;
+    }
+    .btn a, .btn button{
+        font-size: 12px;
+    }
+    .header1 p{
+        font-size: 20px;
+    }
+    .header2 p{
+        font-size: 15px;
+    }
+    .btn{
+        /* display: none; */
+    }
+}

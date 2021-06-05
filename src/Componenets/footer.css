@@ -1,0 +1,70 @@
+.footer{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 100px;
+}
+
+
+p{
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+.social{
+    margin-top: 40px;
+    
+
+}
+.margin-right{
+    margin-right:10px;
+    margin-bottom: 20px;
+}
+.dwnld{
+    float: right;
+    
+}
+.appStore{
+    height:5vh;  
+    margin-right: 20px;
+}
+.googlePlay{
+    height:5vh;  
+    margin-right: 20px;
+}
+.microsoft{
+    height:5vh; 
+    margin-right: 20px;  
+    
+}
+
+@media (max-width:691px){
+    .footer{
+        
+        padding: 40px 30px;
+    }
+    .dwnld{
+        float:none;
+        
+    }
+    .appStore{
+        display: block;
+        margin-bottom: 10px;
+        width: 20vw;
+    }
+    .googlePlay{
+        display: block;
+        margin-bottom: 10px;
+        width: 20vw;
+    }
+    .microsoft{
+        display: block; 
+        width: 20vw;
+        
+    }
+    
+}
+
+
