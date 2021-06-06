@@ -49,6 +49,7 @@ installation : npm install react-icons --save
 Here, loosely-coupled React architecture is used. As, there are components. like footer header etc., can be reusable in whole application.The idea is to break down your application into smaller, single-purpose components.
     
 ### Are there any improvements you could make to your submission?
+If I was having more time I would have made such improvements given below, although considering the time I think the assigment is efficient in many areas:-
 - I could improve the UI of the Application.
 - I could define more clear structure.
 - I could focus more on more efficient code.
@@ -57,4 +58,4 @@ Here, loosely-coupled React architecture is used. As, there are components. like
 ### What would you do differently if you were allocated more time?
 - I would fix the problem in application.
 - I would make it more user friendly.
-- I would use Api more efficiently.
+- I would use Api more efficiently so that user experience can improve.
