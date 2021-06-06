@@ -50,8 +50,9 @@ Here, loosely-coupled React architecture is used. As, there are components. like
     
 ### Are there any improvements you could make to your submission?
 - I could improve the UI of the Application.
-- I could improve the file sructure.
+- I could define more clear structure.
 - I could focus more on more efficient code.
+- Try to remove duplicate code.
 
 ### What would you do differently if you were allocated more time?
 - I would fix the problem in application.
