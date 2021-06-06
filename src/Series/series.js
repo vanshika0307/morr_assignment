@@ -1,10 +1,13 @@
 import React from 'react'
 import '../Home/home.css'
-
+import Loading from'../Componenets/loading'
 import { useState, useEffect } from 'react';
 
 
 const Series = ({data:  { entries}}) => {
+    if(!entries){
+        return <Loading/>;
+    }
     // const [count, setCount] = useState(0);
     // const [newEntries, setNewEntries] = useState([]);
     

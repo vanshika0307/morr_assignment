@@ -1,9 +1,13 @@
 import React from 'react'
 import '../Home/home.css'
+import Loading from'../Componenets/loading'
 
 
 
 const Movies = ({data:  { entries}}) => {
+    if(!entries){
+        return <Loading/>;
+    }
     return (
         <div>
             <div className="header2">
