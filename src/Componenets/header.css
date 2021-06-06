@@ -22,20 +22,10 @@
     padding: 5px;
     margin-left: 20px;
 }
-.header2{
-    background-color: black;
-    padding: 10px 100px;
-    color: white;
-}
-.header2 p{
-    color: white;
-    display: inline-block;
-    font-size: 20px;
-    margin: 0;
-}
+
 
 @media (max-width:691px){
-    .header1, .header2{
+    .header1{
         padding: 13px 10px;
     }
     .btn a, .btn button{
@@ -44,9 +34,7 @@
     .header1 p{
         font-size: 20px;
     }
-    .header2 p{
-        font-size: 15px;
-    }
+    
     .btn{
         /* display: none; */
     }

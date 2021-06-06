@@ -4,3 +4,19 @@
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box; 
 }
+
+.container{
+  margin:20px 100px;
+
+}
+.header2{
+  background-color: black;
+  padding: 10px 100px;
+  color: white;
+}
+.header2 p{
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0;
+}

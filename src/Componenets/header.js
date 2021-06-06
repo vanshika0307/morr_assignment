@@ -11,9 +11,7 @@ export default function header() {
                     <button>Start your free link</button>
                 </div>
             </div>
-            <div className="header2">
-                <p>Popular titles</p>
-            </div>
+            
             
         </div>
     )
