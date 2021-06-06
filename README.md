@@ -44,3 +44,16 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### React Icon
 Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
 installation : npm install react-icons --save
+
+### How did you decide on the technical and architectural choices used as part of your solution?
+Here, loosely-coupled React architecture is used. As, there are components. like footer header etc., can be reusable in whole application.The idea is to break down your application into smaller, single-purpose components.
+    
+### Are there any improvements you could make to your submission?
+- I could improve the UI of the Application.
+- I could improve the file sructure.
+- I could focus more on more efficient code.
+
+### What would you do differently if you were allocated more time?
+- I would fix the problem in application.
+- I would make it more user friendly.
+- I would use Api more efficiently.
