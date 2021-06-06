@@ -33,7 +33,7 @@ class App extends React.Component {
         <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/series" exact render={(props) => <Series data= {data} {...props} />} />
-            <Route path="/movies" exact component={Movies} />
+            <Route path="/movies" exact render={(props) => <Movies data= {data} {...props}  />}/>
             <Route component={Error} />
         </Switch>
         <Footer/>
